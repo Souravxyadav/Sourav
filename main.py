@@ -578,7 +578,7 @@ async def cmd(client, callback_query):
     ])
     await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://ibb.co/zWjGSp1X",
       caption=caption
     ),
     reply_markup=keyboard
@@ -710,7 +710,7 @@ async def pin_button(client, callback_query):
   caption = f"**Auto Pin 📌 Batch Name :**\n\nAutomatically Pins the Batch Name in Channel or Group, If Starting from the First Link."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://ibb.co/zWjGSp1X",
       caption=caption
       ),
       reply_markup=keyboard
